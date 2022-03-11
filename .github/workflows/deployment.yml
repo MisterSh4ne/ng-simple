@@ -16,7 +16,7 @@ jobs:
           node-version: 14.x
 
       - name: Build and Deploy
-        if: github.ref == 'refs/heads/master'
+        if: github.ref == 'refs/heads/main'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
