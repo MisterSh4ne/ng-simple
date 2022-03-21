@@ -487,7 +487,99 @@ section {
   background: #149ddd;
   color: #fff;
 }
-.contact .info .email:hover i, .contact .info .address:hover i, .contact .info .facebook:hover i, .contact .info .line:hover i, .contact .info .phone:hover i {
+.contact .info .email:hover i, .contact .info .address:hover i, .contact .info .facebook:hover i, .contact .info .line:hover i, .contact .info .phone:hover i, .contact .info .instagram:hover i {
   background: #149ddd;
   color: #fff;
 }
+
+.container-fluid {
+  background: #040b14;
+  height: 80px;
+  position: fixed;
+  z-index: 9998;
+  top: 88%;
+  display: none;
+  transition: all 0.4s;
+}
+.icon-nav * {
+  list-style: none;
+  text-align: center;
+  padding: 6px;
+  /* font-size: 24px; */
+}
+.icon-nav ul li {
+  display: inline-block;
+  margin: 2.5px;
+  border: none;
+  border-radius: 25%;
+  background-color: #173b6c;
+  margin-top: 10px;
+}
+.icon-nav ul li i {
+  color: #fff;
+  /* width: 30px; */
+  /* height: 30px; */
+  font-size: 18px;
+}
+@media (max-width: 1200px) {
+  .container-fluid {
+    display: block;
+    transition: all 0.4s;
+  }
+}
+
+
+/* .icon-nav {
+  display: none;
+}
+@media (max-width: 1200px) {
+  .icon-nav {
+    display: block;
+    position: fixed;
+    z-index: 9999;
+    top: 22px;
+    right: 15px;
+    border: none;
+    padding: 0 9px;
+    border-radius: 50px;
+    background-color: #149ddd;
+    color: #fff;
+    transition: all 0.4s;
+  }
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  
+} */
